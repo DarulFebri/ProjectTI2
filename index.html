@@ -1,45 +1,102 @@
-<!DOCTYpe html>
-<html>
-	<head>
-		<title>CSS Layout | Debby</title>
-		<link href="assetsTI/style.css" rel="stylesheet">
-	</head>
-	<body>
-		<div class="Header center-white">
-			<h1>Teknologi Informasi</h1>
-		</div>
-		<div class="Sidebar">
-			<b><p>Program Studi</p></b>
-			D3 Teknik Komputer
-			<br>D3 manajemen Informatika</br>
-			D4 Teknologi Rekayasa Perangkat Lunak
-			<br>D4 Animasi<br>
-		</div>
-		<div class="Content">
-			<b><p>Selamat Datang</p></b>
-			<p>Jurusan teknologi Informasi menghasilkan tenaga profesional tingkat ahli di bidang Teknologi Informasi, khususnya pengelolaan informasi komputer sehingga mampu di beberapa instansi perkantoran, organisasi dan bisnis modern.</p>
-			<P>Jurusan Teknologi Informasi memiliki fasilitas yang lengkap seperti  Air Conditioner, LED Proyector, Labor Komputer dengan spesifikasi yang tinggi, ruangan yang nyaman dan lingkungan yang baik saat pelaksanaan pembelajaran</P>
-		</div>
-		<div class="Footer center-white">
-			<p>@2024 TI PNP | Politeknik Negeri Padang </p>
-		</div>
-		<div class="Header center-white">
-			<h1>Teknologi Informasi</h1>
-		</div>
-		<div class="Sidebar">
-			<b><p>Program Studi</p></b>
-			<a href=""D3 Teknik Komputer
-			<br>D3 manajemen Informatika</br>
-			D4 Teknologi Rekayasa Perangkat Lunak
-			<br>D4 Animasi<br>
-		</div>
-		<div class="Content">
-			<b><p>Selamat Datang</p></b>
-			<p>Jurusan teknologi Informasi menghasilkan tenaga profesional tingkat ahli di bidang Teknologi Informasi, khususnya pengelolaan informasi komputer sehingga mampu di beberapa instansi perkantoran, organisasi dan bisnis modern.</p>
-			<P>Jurusan Teknologi Informasi memiliki fasilitas yang lengkap seperti  Air Conditioner, LED Proyector, Labor Komputer dengan spesifikasi yang tinggi, ruangan yang nyaman dan lingkungan yang baik saat pelaksanaan pembelajaran</P>
-		</div>
-		<div class="Footer center-white">
-			<p>@2024 TI PNP | Politeknik Negeri Padang </p>
-		</div>
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <!--Link Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <title>Dashboard | letdebbycook</title>
+</head>
+<body>
+    <nav class="sidebar">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="logo.jpeg" alt="letdebbycook">
+                </span>
+
+                <div class="text header-text">
+                    <span class="name">letdebbycook</span>
+                    <span class="profession">Junior Computer Science</span>
+                </div>
+            </div>
+            
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+                <li class="search-box">
+                    <a href="#">
+                        <i class='bx bx-search-alt icon'></i>
+                        <input type="search" placeholder="Search...">
+                    </a>
+                </li>
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-home-alt icon' ></i>
+                            <span class="text nav-text">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-bar-chart-alt-2 icon' ></i>
+                            <span class="text nav-text">Statistic</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-bell icon' ></i>
+                            <span class="text nav-text">Notifications</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-pie-chart-alt icon' ></i>
+                            <span class="text nav-text">Analytics</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-heart icon' ></i>
+                            <span class="text nav-text">Likes</span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bx-wallet icon' ></i>
+                            <span class="text nav-text">Wallets</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+            <!-- TIDUR DULU NANTI LANJUTKAN :-) -->
+        <div class="bottom-content">
+            <li class="nav-link">
+                <a href="#">
+                    <i class='bx bx-log-out icon' ></i>
+                    <span class="text nav-text">Logout</span>
+                </a>
+            </li>
+            
+            <li class="mode">
+                <div class="moon-sun">
+                    <i class='bx bx-moon icon' ></i>
+                    <i class='bx bx-sun icon' ></i>
+                </div>
+                <span class="mode-text text">Dark Mode</span>
+
+                <div class="toggle-switch">
+                    <span class="switch"></span>
+                </div>
+            </li>
+        </div>
+    </nav>
+
+</body>
 </html>
