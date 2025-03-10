@@ -1,0 +1,47 @@
+			body {
+			font-family: Arial;
+			}
+			
+			.Header {
+				background-color: maroon;
+				text-align: center;
+				padding: 40px;
+			}
+			
+			.Sidebar {
+				background-color: gray;
+				color: black;
+				text-align: left;
+				font-size: 12px;
+				height: 300px;
+				width: 20%;
+				float: left;
+			}
+			
+			.Content {
+				background-color: white;
+				color: black;
+				text-align: left;
+				font-size: 15px;
+				padding: 15px;
+				height: 300px;
+				width: 75%;
+				float: left;
+			}
+			
+			.Footer {
+				background-color: purple;
+				text-align: center;
+				padding: 15px;
+				clear: both;
+			}
+			
+			.center-white{
+				color: white;
+				text-align: center;
+			}
+			
+			.sidebar-set{
+				color: white;
+				
+			}
